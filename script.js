@@ -60,4 +60,3 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
       passwordInput.value = ''; // Clear password
     });
 });
-}
