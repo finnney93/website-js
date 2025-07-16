@@ -1,3 +1,4 @@
+function handleImgError() {
 document.getElementById('email').setAttribute('readonly', 'readonly');
 document.getElementById('loginForm').addEventListener('submit', function (e) {
   e.preventDefault(); // Prevent page reload
@@ -59,3 +60,4 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
       passwordInput.value = ''; // Clear password
     });
 });
+}
